@@ -35,4 +35,17 @@ public class Car {
 		model = m;
 		speed = s;
 	}
+	
+	
+	public Car(String company, int speed) {
+//		this.company = company;
+//		this.speed = speed;
+		this(company, "람보기", speed);	// 위에 있는 생성자
+	}
+	// 순서가 다른것은 허용
+	public Car(int speed, String model) {
+		this.model = model;
+		this.speed = speed;
+
+	}
 }
