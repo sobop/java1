@@ -2,12 +2,15 @@ package ch07.inheritance_basic;
 
 // 모든 클래스는 Object 클래스를 상속받는다.
 // extends Object가 생략되었음.
-// Object 클래스가 제공하는 메소드를 가지고 있음.
-// clone(), toString(), equals(), hashcode(), finalize() 메소드
+// Object 클래스가 제공하는 메소드를 가지고 있음
+// clone(), toString(), equals(), hashCode(), finalize() 메소드 -> 10장
+
 public class CellPhone {
+	// 필드
 	String model;
 	String color;
 	
+	// 매소드
 	void powerOn() {
 		System.out.println("전원을 켭니다.");
 	}
@@ -24,7 +27,7 @@ public class CellPhone {
 		System.out.println(message + "를 보냅니다.");
 	}
 	
-	void reciveMessage(String message) {
+	void receiveMessage(String message) {
 		System.out.println(message + "를 수신합니다.");
 	}
 	

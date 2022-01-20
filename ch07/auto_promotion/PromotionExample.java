@@ -9,7 +9,7 @@ public class PromotionExample {
 		B b = new C();	// 자동 타입 변환
 		A d = new D();
 		A e = new E();	// 부모 = 손자
-
+		
 		// 방계
 //		B d2 = new D();	// 방계는 대입 불가능
 //		B e2 = new E();
